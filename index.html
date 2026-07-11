@@ -40,6 +40,50 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+    /* Keep the hero entirely within the visible area beside the fixed sidebar */
+    @media (min-width: 1200px) {
+      #hero {
+        margin-left: 300px;
+        width: calc(100% - 300px);
+      }
+
+      #hero .hero-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 48px;
+        box-sizing: border-box;
+      }
+
+      #hero h1 {
+        max-width: 100%;
+        font-size: clamp(44px, 5vw, 64px);
+        line-height: 1.05;
+        overflow-wrap: anywhere;
+      }
+    }
+
+    @media (max-width: 1199px) {
+      #hero {
+        margin-left: 0;
+        width: 100%;
+      }
+
+      #hero .hero-container {
+        width: 100%;
+        padding: 0 28px;
+        box-sizing: border-box;
+      }
+
+      #hero h1 {
+        font-size: clamp(34px, 8vw, 56px);
+        line-height: 1.08;
+        overflow-wrap: anywhere;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
